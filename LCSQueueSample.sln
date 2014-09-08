@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AAF2D343-02A2-416F-A99E-B0BC66920CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCSQueueConsole", "LCSQueueConsole\LCSQueueConsole.csproj", "{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Debug|Any CPU.Build.0 = Debug|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Debug|x86.ActiveCfg = Debug|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Debug|x86.Build.0 = Debug|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Release|Any CPU.ActiveCfg = Release|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Release|x86.ActiveCfg = Release|x86
+		{B0A19970-0090-457F-8DA3-1C5E43F1D7E4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

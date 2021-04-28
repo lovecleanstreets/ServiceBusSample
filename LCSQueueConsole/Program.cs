@@ -15,19 +15,14 @@ namespace LCSQueueConsole
     {
         static void Main(string[] args)
         {
-            var credentials = TokenProvider.CreateSharedSecretTokenProvider(AccountDetails.Name, AccountDetails.Key);
-            var serviceBusUri = ServiceBusEnvironment.CreateServiceUri("sb", AccountDetails.Namespace, string.Empty);
-
-            var factory = MessagingFactory.Create(serviceBusUri, credentials);
- 
-           // Console.WriteLine("Getting Deadletter Queue Messages");
-            // GetMessages(factory, "testreports/subscriptions/chesirewest/$DeadLetterQueue");
+            
+            var factory = MessagingFactory.CreateFromConnectionString("xxxxx");
 
             Console.WriteLine("Send Queue Messages");
          //   SendMessage(factory);
 
             Console.WriteLine("Getting Queue Messages");
-            GetMessages(factory, "reports/subscriptions/XXXXX");
+            GetMessages(factory, "testreports/subscriptions/XXXXX");
 
 
             Console.WriteLine("Finished press any key to exit");
